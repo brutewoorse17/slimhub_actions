@@ -131,9 +131,9 @@ if [[ ${retain_docker_imgcache} != "true" ]]; then
   docker rmi -f $(docker images -q) 2>/dev/null
   echo "::endgroup::"
 fi
-if [[ ${retain_docker_buildkit} != "true" ]]; then
-  export AptPurgeList+=" docker-buildx-plugin docker-ce-cli docker-ce containerd.io"
-  export DirPurgeList+=" /usr/bin/docker-credential-* /usr/local/bin/docker-compose /usr/bin/docker*"
+#if [[ ${retain_docker_buildkit} != "true" ]]; then
+ # export AptPurgeList+=" docker-buildx-plugin docker-ce-cli docker-ce containerd.io"
+  #export DirPurgeList+=" /usr/bin/docker-credential-* /usr/local/bin/docker-compose /usr/bin/docker*"
 fi
 
 if [[ ${retain_container_tools} != "true" ]]; then
