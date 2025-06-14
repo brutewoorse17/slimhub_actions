@@ -28,7 +28,8 @@ cat <<EOBT
   ║           Please Read The README.md File Properly.           ║
   ║       ------------------------------------------------       ║
   ║                 Visit Here & Read Carefully:                 ║
-  ║  https://github.com/rokibhasansagar/slimhub_actions/#readme  ║
+  ║  https://github.com/rokibhasansagar/slimhub_actions/#readme  
+  ║.                   dont remove docker
   ║                                                              ║
   ╚══════════════════════════════════════════════════════════════╝
 
