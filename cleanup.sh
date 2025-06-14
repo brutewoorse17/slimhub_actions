@@ -132,7 +132,7 @@ fi
 #if [[ ${retain_docker_buildkit} != "true" ]]; then
  # export AptPurgeList+=" docker-buildx-plugin docker-ce-cli docker-ce containerd.io"
   #export DirPurgeList+=" /usr/bin/docker-credential-* /usr/local/bin/docker-compose /usr/bin/docker*"
-fi
+#fi
 
 if [[ ${retain_container_tools} != "true" ]]; then
   export AptPurgeList+=" podman buildah skopeo containers-common kubectl"   # FIXME: + open-vm-tools ?
