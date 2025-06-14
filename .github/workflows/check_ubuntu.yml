@@ -16,7 +16,7 @@ on:
 
 jobs:
   cleanup:
-    if: github.repository == 'rokibhasansagar/slimhub_actions'
+    if: github.repository == 'brutewoorse17/slimhub_actions'
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -35,7 +35,7 @@ jobs:
         run: |
           bash ./.github/checker.sh
       - name: Cleanup Workspace
-        uses: rokibhasansagar/slimhub_actions@main
+        uses: brutewoorse17/slimhub_actions@main
         with:
           retain: "homebrew"
       - name: Clean Environment Checkup
