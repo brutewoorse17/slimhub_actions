@@ -44,9 +44,6 @@ export AptPurgeList=" " DirPurgeList=" "
 # Make supported retainer list
 cat >/tmp/retainer.list <<EOR
 - homebrew
-- docker_imgcache
-- docker_buildkit
-  + docker_imgcache
 - container_tools
 - android_sdk
 - java_tools
